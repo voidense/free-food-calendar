@@ -9,7 +9,7 @@ The calendar template we use is from https://github.com/dAnjou/flask-calendar, w
 
 ## Requirements
 
-* enviroment: 
+* environment: 
 	* OSX or Linux
 * install:
 	* flask
@@ -84,7 +84,7 @@ The calendar template we use is from https://github.com/dAnjou/flask-calendar, w
         * Porter_stemming.py
         * stopwords.txt
 
-## Details:
+## Details
 
 ###### System Prerequisites:
 
