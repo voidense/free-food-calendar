@@ -1,7 +1,7 @@
 Free Food Calendar
 ==============
 
-A calendar that displays events providing free food in University of Michigan
+A calendar that displays events providing free food in University of Michigan   
 Author: Haoran Wang, Yuliang Zou, Sang Hyuk Cho, Connor Larson
 
 ![alt text](screenshot_cal.png "Screen shot of the web calendar")
