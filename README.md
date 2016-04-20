@@ -81,7 +81,6 @@ The calendar template we use is from https://github.com/dAnjou/flask-calendar, w
     * test_algorithm /
         * train.py
         * test.py
-        * stopwords
         * Porter_stemming.py
         * stopwords.txt
 
