@@ -418,7 +418,7 @@ def white_list(X, t):
 
 def test():
     # Load stopwords list
-    stopwords_filename = 'stopwords'
+    stopwords_filename = 'stopwords.txt'
     INFILE = open(stopwords_filename)
     stopwords = INFILE.read()
     INFILE.close()

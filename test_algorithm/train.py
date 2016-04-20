@@ -119,7 +119,7 @@ def train_naive_bayes(X_train, t_train):
 
 def train():
     # Load stopwords list
-    stopwords_filename = 'stopwords'
+    stopwords_filename = 'stopwords.txt'
     INFILE = open(stopwords_filename)
     stopwords = INFILE.read()
     INFILE.close()

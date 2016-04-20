@@ -115,7 +115,7 @@ def vectorize(text, doc_num=78):
 
 def classify(input_str, opt=0):
     # Load stopwords list
-    stopwords_filename = 'foodscrape/spiders/stopwords'
+    stopwords_filename = 'foodscrape/spiders/stopwords.txt'
     INFILE = open(stopwords_filename)
     stopwords = INFILE.read()
     INFILE.close()

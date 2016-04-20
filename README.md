@@ -3,6 +3,9 @@ Free Food Calendar
 
 A calendar that displays events providing free food in University of Michigan
 
+## Flask calendar template
+The calendar template we use is from https://github.com/dAnjou/flask-calendar, which is using Flask, Jinja and Foundation's Orbit,and under MIT license (See LICENSE).
+
 ## Requirements
 
 * enviroment: 
@@ -34,6 +37,16 @@ A calendar that displays events providing free food in University of Michigan
 3. Use (In browser):
 	* `http://127.0.0.1:5000` website running on local host (port 5000)
 
+4. Algorithm testing 
+    * Go to test_algorithm/
+    * run 'python train.py'
+        * Use all the data to pre-train the classifiers used in the pipeline, stored in .pkl files.
+    * run 'python test.py'
+        * Test and compare the performance of different methods, using leave-one-out strategy and 80/20 train/test split
+    ＊ Result
+        * Run test.py and you will get four numbers, which are accuracy, precision, recall and F-measure values.
+        * Details are in our final report
+
 ## File structure (major files)
 * Base Project Folder /
     * crawler.py 
@@ -58,10 +71,18 @@ A calendar that displays events providing free food in University of Michigan
         * __init__.py
         * foodscrape_spider.py
         * classify.py
+        * Porter_stemming.py
+        * stopwords.txt
         * *.pkl
         * traindata / 
         * test.py
         * train.py
+    * test_algorithm /
+        * train.py
+        * test.py
+        * stopwords
+        * Porter_stemming.py
+        * stopwords.txt
 
 ## Details:
 
