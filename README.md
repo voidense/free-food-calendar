@@ -2,9 +2,10 @@ Free Food Calendar
 ==============
 
 A calendar that displays events providing free food in University of Michigan
+Author: Haoran Wang, Yuliang Zou, Sang Hyuk Cho, Connor Larson
 
 ## Flask calendar template
-The calendar template we use is from https://github.com/dAnjou/flask-calendar, which is using Flask, Jinja and Foundation's Orbit,and under MIT license (See LICENSE).
+The calendar template we use is from https://github.com/dAnjou/flask-calendar, which is using Flask, Jinja and Foundation's Orbit, and under MIT license (See LICENSE).
 
 ## Requirements
 
