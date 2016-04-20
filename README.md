@@ -64,20 +64,20 @@ The calendar template we use is from https://github.com/dAnjou/flask-calendar, w
     * url_starts.txt
     * URLs.txt
     * foodscrape /
-    *  __init__.py
-    *  items.py
-    *  settings.py
-    *  pipelines.py
-    *  spiders / 
-        * __init__.py
-        * foodscrape_spider.py
-        * classify.py
-        * Porter_stemming.py
-        * stopwords.txt
-        * *.pkl
-        * traindata / 
-        * test.py
-        * train.py
+        *  __init__.py
+        *  items.py
+        *  settings.py
+        *  pipelines.py
+        *  spiders / 
+            * __init__.py
+            * foodscrape_spider.py
+            * classify.py
+            * Porter_stemming.py
+            * stopwords.txt
+            * *.pkl
+            * traindata / 
+            * test.py
+            * train.py
     * test_algorithm /
         * train.py
         * test.py
