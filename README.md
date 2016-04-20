@@ -6,7 +6,7 @@ A calendar that displays events providing free food in University of Michigan
 ## Requirements
 
 * enviroment: 
-	* Unix-like OS
+	* OSX or Linux
 * install:
 	* flask
 	* BeautifulSoup
@@ -15,6 +15,9 @@ A calendar that displays events providing free food in University of Michigan
 	* numpy
 	* scipy
 	* sklearn
+# dependencies:
+    * porterstemmer.py
+    * stopwords
 
 ## How to use
 
@@ -25,7 +28,8 @@ A calendar that displays events providing free food in University of Michigan
 		* `db.myCollections.ensureIndex({url:1},{unique:true})` aovid having duplicate URLs in DB
 2. Run (in project base folder):
 	* `python server.py` get website running
-	* `update_db.py` run crawler, scraper and classifier to feed the database
+	* `update_db.py 20` run crawler, scraper and classifier to feed the database. 20 means update DB every 20 seconds
+    * These two commands needs to be running on two shells.
 
 3. Use (In browser):
 	* `http://127.0.0.1:5000` website running on local host (port 5000)
