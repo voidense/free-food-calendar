@@ -15,7 +15,7 @@ A calendar that displays events providing free food in University of Michigan
 	* numpy
 	* scipy
 	* sklearn
-# dependencies:
+* dependencies:
     * porterstemmer.py
     * stopwords
 
