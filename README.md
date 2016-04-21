@@ -78,13 +78,12 @@ The calendar template we use is from https://github.com/dAnjou/flask-calendar, w
             * Porter_stemming.py
             * stopwords.txt
             * *.pkl
-            * traindata / 
     * test_algorithm /
         * train.py
         * test.py
         * Porter_stemming.py
         * stopwords.txt
-        # traindata /
+        * traindata /
     * raw_data /
         * eventdescriptions.csv
         * involvedescriptions.csv
@@ -117,7 +116,7 @@ http://scikit-learn.org/stable/install.html
 
 
 * Website:
-We used the Flask as web framework and MongoDB as our back-end database
+We used the Flask as web framework and MongoDB as our back-end database    
 Further information can be found here:   
 http://flask.pocoo.org/   
 https://www.mongodb.org/   
