@@ -79,13 +79,15 @@ The calendar template we use is from https://github.com/dAnjou/flask-calendar, w
             * stopwords.txt
             * *.pkl
             * traindata / 
-            * test.py
-            * train.py
     * test_algorithm /
         * train.py
         * test.py
         * Porter_stemming.py
         * stopwords.txt
+        # traindata /
+    * raw_data /
+        * eventdescriptions.csv
+        * involvedescriptions.csv
 
 ## Details
 
@@ -116,16 +118,11 @@ http://scikit-learn.org/stable/install.html
 
 * Website:
 We used the Flask as web framework and MongoDB as our back-end database
-Further information can be found here:
-http://flask.pocoo.org/
-https://www.mongodb.org/
+Further information can be found here:   
+http://flask.pocoo.org/   
+https://www.mongodb.org/   
+https://github.com/dAnjou/flask-calendar
 
-###### Checklist:
-* trainingdata/             - Folder containing the training data we collected in advance. We  manually annotate them and organize them as what we had in Assignment 3.
-* foodscrape/spiders/test.py                      - The Python code to test the performances of different       classification methods.
-* foodscrape/spiders/train.py                    - Pre-train the classifiers
-* stopwords                - A list of common stopwords.
-* porter_stemming.py - The porter stemmer.
 
 ###### Crawling and Scraping Code:
 
