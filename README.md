@@ -36,7 +36,7 @@ The calendar template we use is from https://github.com/dAnjou/flask-calendar, w
 2. Run (in project base folder):
 	* `python server.py` get website running
 	* `python update_db.py 20` run crawler, scraper and classifier to feed the database. 20 means to update DB every 20 seconds
-    * These two commands needs to be running on two shells.
+    * These two commands needs to be running on two separate command line bash.
 
 3. Use (In browser):
 	* `http://127.0.0.1:5000` website running on local host (port 5000)
