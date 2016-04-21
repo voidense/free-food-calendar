@@ -94,26 +94,26 @@ The calendar template we use is from https://github.com/dAnjou/flask-calendar, w
 ###### System Prerequisites:
 
 * Crawling: 
-Crawling requires an external python library Scrapy and BeautifulSoup
-To install Scrapy use: pip install scrapy
-Further instructions can be found here:
-http://doc.scrapy.org/en/latest/intro/install.html
+Crawling requires an external python library Scrapy and BeautifulSoup    
+To install Scrapy use: pip install scrapy    
+Further instructions can be found here:    
+http://doc.scrapy.org/en/latest/intro/install.html    
 
-* BeautifulSoup is preinstalled on CAEN: 
-To use the library directory, run: module load python
-To install: pip install -U beautifulsoup4
-Further instructions can be found here:
-https://www.crummy.com/software/BeautifulSoup/bs4/doc/#
+* BeautifulSoup is preinstalled on CAEN:     
+To use the library directory, run: module load python   
+To install: pip install -U beautifulsoup4   
+Further instructions can be found here:   
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/#   
 
 
 * Classifier Test:
-Some classifiers requires Scikit-Learn python library: 
-Sklearn is preinstalled on CAEN. 
-To use the library directory, run: module load python
-To install sklearn: pip install -U scikit-learn
-Further instructions can be found here:
-http://scikit-learn.org/stable/install.html
-(BTW, before you install sklearn, you need numpy and scipy installed, which can be installed by pip)
+Some classifiers requires Scikit-Learn python library:    
+Sklearn is preinstalled on CAEN.    
+To use the library directory, run: module load python     
+To install sklearn: pip install -U scikit-learn     
+Further instructions can be found here:     
+http://scikit-learn.org/stable/install.html   
+(BTW, before you install sklearn, you need numpy and scipy installed, which can be installed by pip) 
 
 
 * Website:
