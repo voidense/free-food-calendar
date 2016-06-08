@@ -3,7 +3,6 @@ import time
 import threading
 import sys
 
-
 time_interval = float(sys.argv[1])
 def crawl_and_scape():
 	while True:
