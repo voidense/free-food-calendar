@@ -6,7 +6,6 @@ import pymongo
 import time
 import datetime
 
-
 app = Flask(__name__)
 
 #mongo = PyMongo(app)
